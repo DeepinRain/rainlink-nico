@@ -1,6 +1,6 @@
 {
   "name": "rainlink-nico",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A rainlink plugin that allows you to play music on apple",
   "main": "dist/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/RainyProduction/rainlink-nico#readme",
   "dependencies": {
     "node-html-parser": "^6.1.13",
-    "rainlink": "^0.6.3-beta5"
+    "rainlink": "^0.6.4-beta5"
   },
   "devDependencies": {
     "@types/node": "^20.12.6",
