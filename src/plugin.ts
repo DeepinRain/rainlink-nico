@@ -204,6 +204,7 @@ export class RainlinkPlugin extends SourceRainlinkPlugin {
 					title: nicoTrack.title,
 					uri: `https://www.nicovideo.jp/watch/${nicoTrack.id}`,
 					artworkUrl: nicoTrack.thumbnail ? nicoTrack.thumbnail.url : '',
+					isrc: null
 				},
 				pluginInfo: {
 					name: 'rainlink.mod@nico',
