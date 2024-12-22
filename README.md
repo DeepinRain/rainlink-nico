@@ -25,6 +25,6 @@ const rainlink = new Rainlink({
     ],
 });
 
-kazagumo.search(`https://www.nicovideo.jp/watch/sm30067009`); // track
-kazagumo.search('初音ミク', { engine: 'nicovideo' }); // search track using nico
+rainlink.search(`https://www.nicovideo.jp/watch/sm30067009`); // track
+rainlink.search('初音ミク', { engine: 'nicovideo' }); // search track using nico
 ```
